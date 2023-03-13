@@ -1,0 +1,140 @@
+.userprofile-sidebar-container{
+    width:20vw;
+    border:1px solid grey;
+    height:80vh;
+    margin-top:1rem;
+    border-radius: 5px;
+    margin-left:1rem;
+    box-shadow: 5px 5px 10px grey;
+    /* background-color:grey; */
+}
+
+
+.image-section{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    /* background-color: chartreuse; */
+    /* overflow: hidden; */
+    border-radius: 50%;
+    background-color: red;
+    background-image: url("https://www.citypng.com/public/uploads/preview/png-round-blue-contact-user-profile-icon-11639786938sxvzj5ogua.png");
+    background-size: cover;
+}
+
+#avtar-image{
+    top:0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border:1px solid gray;
+    position: absolute;
+    border-radius: 50%;
+}   
+.edit-profile-photo-button{
+    opacity: 0;
+    z-index: 99 ;
+    background-color: transparent;
+    border:none;
+    font-weight: bold;
+    transform: translate(370% ,600%);
+    cursor: pointer;
+}
+
+
+.image-section:hover .edit-profile-photo-button {
+    opacity: 1;
+}
+
+.image-section:hover #avtar-image{
+    filter:blur(1px)
+}
+
+#avatar{
+    display: none;
+}
+
+#avatar-text{
+    font-weight: bold;
+}
+
+.avatar-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 25%;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+
+.upload-image-button{
+    background-color: none;
+    border:none;
+    padding:1rem;
+    background: none;
+}
+
+.sidebar-user-name{
+    padding:1rem 0;
+    background-color: #1F8ACB;
+    width: 100%;
+    color : white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.profile-photo-section{
+    height: 25vh;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.sidebar-list{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar-links{
+    width: 100%;
+}
+
+.sidebar-list-item{
+    padding:1rem 0;
+    /* background-color: aqua; */
+
+    font-weight: bold;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    transition: all 0.5s ease-in-out; 
+}
+
+.sidebar-list-item:hover{
+    background-color: #1F8ACB;
+    color: white;
+    transition: all 0.5s ease-in-out; 
+}
+.create-listing-button{
+    padding: 0.5rem 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .userprofile-sidebar-container{
+        display: none;
+    }
+
+
+  }

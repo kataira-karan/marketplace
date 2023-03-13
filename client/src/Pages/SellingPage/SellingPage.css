@@ -1,0 +1,38 @@
+.selling-page-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* height: 75vh; */
+    width: 90vw;
+    margin: auto;
+    padding:2rem 4rem;
+    border-radius: 10px;
+    background-color: #F0F2F5;
+    overflow: none;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.selling-page-header{
+    width: 100%;
+    padding:1rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: white;
+    
+}
+
+.seller-listed-items{
+    overflow: scroll;
+
+}

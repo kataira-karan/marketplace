@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+/* input[type="text"] , input[type="password"]  {
+    width:30vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin: 0.25rem 0;
+    border:none;
+    padding: 0.5rem;
+} */
+
+input[type="text"]:focus , input[type="password"]:focus{
+    outline: none;
+}
+
+.form-title{
+    margin: 2rem 0;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+    /* input[type="submit"]{
+        display: block;
+        width: 30vw;
+        border-radius: 5px;
+        margin: 0.25rem 0;
+        border:none;
+        height: 4vh;
+        cursor: pointer;
+    } */
+
+.form-change{
+    display: inline;
+    /* justify-self: flex-start; */
+    /* align-self: flex-start; */
+}
+
+
+
+.weighted{
+    font-weight: bold;
+}
+
+.heading2{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

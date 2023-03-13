@@ -1,0 +1,94 @@
+.drafted-item-container{
+    display: flex;
+    /* background-color: aqua; */
+    height: 87%;
+    width: 50vw;
+    padding:2rem;
+}
+
+.drafted-item-image{
+    height: 100%;
+    width: 50%;
+    margin-right: 3rem;
+
+}
+
+.drafted-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.drafted-item-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.drafted-item{
+    margin: 0.8rem 0;
+}
+.space-between-element{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.drafted{
+    color:rgb(68, 67, 67)
+}
+
+
+
+/* seller info  */
+
+.seller-information-section{
+    margin-top: 2rem;
+}
+
+.seller-image-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}   
+
+.seller-information-header{
+    padding:1rem 0;
+}
+
+
+.seller-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.seller-information{
+    display: flex;
+    
+}
+
+@media screen  and (max-width : 800px) {
+
+    .drafted-item-container{
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .drafted-item-image{
+        height: 50%;
+        /* background-color: red; */
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

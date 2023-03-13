@@ -1,0 +1,61 @@
+.selling-page-item-card-container{
+    padding:1rem 1rem;
+    background-color: white;
+    width: 50vw;
+    margin:1rem 0;
+    border-radius: 10px;
+    display: flex;
+}
+.selling-page-item-card-image-container{
+    height: 150px;  ;
+    width: 150px;
+}
+.selling-page-item-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.selling-page-item-card-information{
+    margin-left: 2rem;
+}
+
+.selling-page-item-card-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin:0.3rem 0
+    
+}
+
+
+.selling-page-item-card-buttons{
+    margin-top: 0.5rem;
+}
+
+.mark-as-available-option{
+    padding:0.4rem 1rem;
+    margin-right: 0.5rem;
+    background-color: #1F8ACB;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .selling-page-item-card-container{
+        width: 90%;
+        padding:1rem;
+        /* background-color: red; */
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

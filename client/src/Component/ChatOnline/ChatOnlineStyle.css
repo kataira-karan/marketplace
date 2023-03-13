@@ -1,0 +1,33 @@
+.chat-online-contianer{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;;
+}
+
+.chat-online-image-container{
+    position: relative;
+
+}
+
+.chat-online-image{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.convesation-name{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+
+.chat-online-badge{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    right: 1px;
+    top:0px
+}

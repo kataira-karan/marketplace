@@ -1,0 +1,39 @@
+.product-card-container{
+    height: 300px;
+    width: 250px;
+    padding:1rem;
+    border:1px solid grey;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+    margin:1rem
+    /* background-color: red; */
+
+}
+
+.add-to-cart-button{
+    background-color: #1F8ACB;
+    border:none;
+    padding:0.2rem 0;
+}
+
+.product-image-container{
+    height: 70%;
+    width: 100%;
+}
+
+.product-image{
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
